@@ -1,0 +1,14 @@
+configName: default
+folderName: saml11-soil-lora-sensor_NonSecure
+format_version: v1.0
+frameworkPath: ../../../Harmony3
+processor: ATSAML11E15A
+projectName: saml11-soil-lora-sensor_NonSecure
+settings:
+  PackageFilter: crypto;core_apps_sam_d21_da1;dev_packs;net;core;bootloader;csp_apps_sam_d21_da1;bsp;quick_docs;usb;csp;harmony-services;Devices
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'true'
+  CMSISPath: ./dev_packs/arm/CMSIS/5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: ./dev_packs/Microchip/SAML11_DFP/4.4.149/atdf/ATSAML11E15A.atdf
